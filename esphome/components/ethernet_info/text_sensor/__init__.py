@@ -8,6 +8,7 @@ from esphome.const import (
     ENTITY_CATEGORY_DIAGNOSTIC,
 )
 
+CODEOWNERS = ["@gtjadsonsantos"]
 DEPENDENCIES = ["ethernet"]
 
 ethernet_info_ns = cg.esphome_ns.namespace("ethernet_info")
